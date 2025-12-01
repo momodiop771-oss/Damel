@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damel | Mode & Parfums pour Hommes & Femmes & Femmes</title>
+  <style>
+    body { margin:0; font-family:"Poppins", Arial, sans-serif; background:#f2f2f2; }
+
+    /* HEADER */
+    header { background:linear-gradient(90deg,#000,#333); color:white; padding:25px; text-align:center; letter-spacing:1px; }
+
+    nav { display:flex; justify-content:center; gap:30px; background:#111; padding:12px; position:sticky; top:0; z-index:10; }
+    nav a { color:white; text-decoration:none; font-size:17px; font-weight:500; transition:0.3s; }
+    nav a:hover { color:#e0c383; }
+
+    /* HERO */
+    .hero { 
+      background:url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+      color:white; padding:120px 20px; text-align:center;
+      text-shadow:0 2px 10px rgba(0,0,0,0.7);
+    }
+    .hero h1 { font-size:48px; font-weight:700; margin-bottom:15px; }
+    .hero p { font-size:20px; }
+
+    /* SECTIONS */
+    .section { padding:60px 25px; max-width:1200px; margin:auto; }
+    .section h2 { text-align:center; font-size:32px; margin-bottom:40px; font-weight:600; }
+
+    /* PRODUCTS */
+    .products { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:25px; }
+    .card { 
+      background:white; border-radius:15px; padding:20px; text-align:center; 
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transition:0.3s; 
+    }
+    .card:hover { transform:translateY(-5px); box-shadow:0 6px 14px rgba(0,0,0,0.18); }
+    .card img { width:100%; border-radius:12px; }
+    .card h3 { margin-top:15px; font-size:20px; }
+    .card p { font-size:15px; color:#444; }
+
+    /* BUTTON */
+    .btn { background:#000; color:white; padding:12px 20px; border-radius:8px; display:inline-block; text-decoration:none; margin-top:12px; font-weight:500; transition:0.3s; }
+    .btn:hover { background:#e0c383; color:#000; }
+
+    /* CONTACT */
+    .contact { text-align:center; padding:60px 20px; }
+    .contact p { font-size:18px; }
+
+    footer { background:#000; color:white; text-align:center; padding:25px; margin-top:40px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DAMEL — Style & Parfums pour Hommes</h1>
+</header>
+
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#boutique">Boutique</a>
+  <a href="#packs">Packs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="accueil">
+  <h1>Élégance. Confiance. Style.</h1>
+  <p>Découvrez la marque Damel : un style vestimentaire complet pour hommes et femmes — T‑shirts, chemises, blousons, robes de soirée, parfums, sacs à main et bien plus.</p>
+  <a class="btn" href="#boutique">Voir la Boutique</a>
+</section>
+
+<section class="section" id="boutique">
+  <h2>Nos Produits</h2>
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Parfum Damel">
+      <h3>Parfum Damel</h3>
+      <p>Un parfum élégant et durable adapté à toutes les occasions.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="T-shirt Damel">
+      <h3>T-shirt Damel</h3>
+      <p>Confort et style pour un look moderne.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Chemise Damel">
+      <h3>Chemise Damel</h3>
+      <p>Idéal pour les hommes qui aiment rester élégants.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+      <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Blouson Damel">
+      <h3>Blouson Damel</h3>
+      <p>Style, chaleur et finition premium pour toutes vos sorties.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Robe de soirée Damel">
+      <h3>Robe de soirée Damel</h3>
+      <p>Élégance féminine pour les grandes occasions.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Sacs à main Damel">
+      <h3>Sacs à main Damel</h3>
+      <p>Design chic et haute qualité pour femmes.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Accessoires Damel">
+      <h3>Accessoires & Articles Divers</h3>
+      <p>Découvrez une variété d’articles pour compléter votre style.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="packs">
+  <h2>Packs Spéciaux</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x350" alt="Pack Cadeau">
+      <h3>Pack Cadeau</h3>
+      <p>Parfum + T-shirt — parfait pour offrir en décembre.</p>
+      <a class="btn" href="#contact">Commander</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact & Commandes</h2>
+  <p>WhatsApp : <strong>+221 77 627 40 89</strong></p>
+  <a class="btn" href="https://wa.me/22177089">Commander par WhatsApp</a>
+</section>
+
+<footer>
+  © 2025 Damel — Tous droits réservés.
+</footer>
+
+</body>
+</html>
